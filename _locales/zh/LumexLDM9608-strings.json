@@ -1,5 +1,5 @@
 {
-    "LumexLDM9608|block": "LDM64*32",
+    "LumexLDM9608|block": "LDM96*8",
     "LumexLDM9608.filledType.type1|block":"不填滿",
     "LumexLDM9608.filledType.type2|block":"填滿",
     "LumexLDM9608.transitionType.type1|block":"向上",
