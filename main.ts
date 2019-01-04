@@ -111,10 +111,10 @@ namespace LumexLDM9608 {
         if (myStr.length > 0) {
             serial.writeString("ATef=(" + color + ")")
             serial.readUntil("E")
-            basic.pause(3)
+            basic.pause(10)
             serial.writeString("AT81=(0," + column + "," + myStr + ")")
             serial.readUntil("E")
-            basic.pause(3)
+            basic.pause(10)
         }
     }
 
