@@ -114,7 +114,7 @@ namespace LumexLDM9608 {
             basic.pause(10)
             serial.writeString("AT81=(0," + column + "," + myStr + ")")
             serial.readUntil("E")
-            basic.pause(10)
+            basic.pause(310)
         }
     }
 
